@@ -1,0 +1,48 @@
+<idea-plugin version="2">
+    <id>com.okhjp.unique.plugin.id</id>
+    <name>output all set method</name>
+    <version>1.0</version>
+    <vendor email="hjp22222@163.com" url="http://www.okhjp.com">donnie</vendor>
+
+    <description><![CDATA[
+      在new domain时，需要初始化所有参数时使用，只需要将光标移动到类上，
+      然后按快捷键( Ctrl+Shit+G )或(alt+insert -input all set>,就会自动生成set方法代码<br>
+      <small>most HTML tags may be used</small>
+      ]]></description>
+
+    <change-notes><![CDATA[
+      Add change notes here.<br>
+      <small>most HTML tags may be used</small>
+      ]]>
+    </change-notes>
+
+    <!-- please see http://confluence.jetbrains.net/display/IDEADEV/Build+Number+Ranges for description -->
+    <idea-version since-build="107.105"/>
+
+    <!-- please see http://confluence.jetbrains.net/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <application-components>
+        <!-- Add your application components here -->
+    </application-components>
+
+    <project-components>
+        <!-- Add your project components here -->
+    </project-components>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="GenerateAllSetterAction" class="com.okhjp.plugin.GenerateAllSetterAction"
+                text="output all set" description="输出所有需要set的方法">
+            <add-to-group group-id="GenerateGroup" anchor="last"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl G"/>
+        </action>
+    </actions>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+</idea-plugin>
