@@ -19,4 +19,4 @@ GenerateAllSetter 是给intellij idea开发的一个生成调用Set方法的插�
 然后按快捷键( Ctrl+Shit+G )或(alt+insert -input all set>,就会自动生成代码
 
 #插件开发
-参见[intellij](http://confluence.jetbrains.com/display/IDEADEV/Getting+Started+with+Plugin+Development#GettingStartedwithPluginDevelopment-anchor5)
+参见[intellij idea development](http://confluence.jetbrains.com/display/IDEADEV/Getting+Started+with+Plugin+Development#GettingStartedwithPluginDevelopment-anchor5)
