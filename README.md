@@ -1,22 +1,22 @@
+ï»¿
+#ä»‹ç»
 
-#½éÉÜ
+GenerateAllSetter æ˜¯ç»™intellij ideaå¼€å‘çš„ä¸€ä¸ªç”Ÿæˆè°ƒç”¨Setæ–¹æ³•çš„æ’ä»¶ï¼Œåœ¨å¼€å‘æ—¶æœ‰æ—¶å€™ä¼šé‡åˆ°åˆå§‹åŒ–domainæ—¶éœ€è¦
+è°ƒç”¨å¾ˆå¤šSetæ–¹æ³•ï¼Œéœ€è¦äººå·¥ä¸€ä¸ªä¸€ä¸ªæ“ä½œï¼Œéå¸¸çš„éº»çƒ¦ï¼Œæ‰€ä»¥å¼€å‘äº†è¿™ä¸ªæ’ä»¶ï¼Œæé«˜æ•ˆç‡
 
-GenerateAllSetter ÊÇ¸øintellij idea¿ª·¢µÄÒ»¸öÉú³Éµ÷ÓÃSet·½·¨µÄ²å¼ş£¬ÔÚ¿ª·¢Ê±ÓĞÊ±ºò»áÓöµ½³õÊ¼»¯domainÊ±ĞèÒª
-µ÷ÓÃºÜ¶àSet·½·¨£¬ĞèÒªÈË¹¤Ò»¸öÒ»¸ö²Ù×÷£¬·Ç³£µÄÂé·³£¬ËùÒÔ¿ª·¢ÁËÕâ¸ö²å¼ş£¬Ìá¸ßĞ§ÂÊ
+#å…³äºæˆ‘
 
-#¹ØÓÚÎÒ
+ä»äº‹ç”µå•†çš„javaç å†œï¼Œç›®å‰æˆ‘åœ¨[okhqb.com](http://www.okhqb.com)å·¥ä½œã€‚æˆ‘çš„[ä¸ªäººä¸»é¡µ](http://www.okhjp.com/)ã€‚
 
-´ÓÊÂµçÉÌµÄjavaÂëÅ©£¬Ä¿Ç°ÎÒÔÚ[okhqb.com](http://www.okhqb.com)¹¤×÷¡£ÎÒµÄ[¸öÈËÖ÷Ò³](http://www.okhjp.com/)¡£
+#æ’ä»¶å®‰è£…
 
-#²å¼ş°²×°
+1.ç›´æ¥ä¸‹è½½GenerateAllSetter.jaræ”¾åˆ°æœ¬åœ°ç£ç›˜ï¼Œ
+2.ç„¶ååœ¨intellij idea æ’ä»¶å®‰è£…ï¼Œé€‰install plugin from disk å®‰è£…é‡å¯å³å¯ä½¿ç”¨
 
-1.Ö±½ÓÏÂÔØGenerateAllSetter.jar·Åµ½±¾µØ´ÅÅÌ£¬
-2.È»ºóÔÚintellij idea ²å¼ş°²×°£¬Ñ¡install plugin from disk °²×°ÖØÆô¼´¿ÉÊ¹ÓÃ
+#æ’ä»¶ä½¿ç”¨
 
-#²å¼şÊ¹ÓÃ
+åœ¨new domainæ—¶ï¼Œéœ€è¦åˆå§‹åŒ–è°ƒç”¨æ‰€æœ‰Setæ–¹æ³•æ—¶ï¼Œåªéœ€è¦å°†å…‰æ ‡ç§»åŠ¨åˆ°ç±»ä¸Šï¼Œ
+ç„¶åæŒ‰å¿«æ·é”®( Ctrl+Shit+G )æˆ–(alt+insert -input all set>,å°±ä¼šè‡ªåŠ¨ç”Ÿæˆä»£ç 
 
-ÔÚnew domainÊ±£¬ĞèÒª³õÊ¼»¯µ÷ÓÃËùÓĞSet·½·¨Ê±£¬Ö»ĞèÒª½«¹â±êÒÆ¶¯µ½ÀàÉÏ£¬
-È»ºó°´¿ì½İ¼ü( Ctrl+Shit+G )»ò(alt+insert -input all set>,¾Í»á×Ô¶¯Éú³É´úÂë
-
-#²å¼ş¿ª·¢
-²Î¼û[intellij idea development](http://confluence.jetbrains.com/display/IDEADEV/Getting+Started+with+Plugin+Development#GettingStartedwithPluginDevelopment-anchor5)
+#æ’ä»¶å¼€å‘
+å‚è§[intellij](http://confluence.jetbrains.com/display/IDEADEV/Getting+Started+with+Plugin+Development#GettingStartedwithPluginDevelopment-anchor5)
