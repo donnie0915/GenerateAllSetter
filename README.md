@@ -20,3 +20,16 @@ GenerateAllSetter 是给intellij idea开发的一个生成调用Set方法的插�
 
 #插件开发
 参见[intellij idea development](http://confluence.jetbrains.com/display/IDEADEV/Getting+Started+with+Plugin+Development#GettingStartedwithPluginDevelopment-anchor5)
+
+#高版本不能使用问题
+1.如果使用jdk1.7以上开发，会出现问题
+由于 Idea 默认是使用 JRE 1.6 的，如果要使用 JRE 1.7 可以通过修改文件 /Applications/IntelliJ\ IDEA\ 14\ CE.app/Contents/Info.plist
+{code}
+<key>JVMVersion</key>
+<string>1.6*</string>
+{code}
+修改为
+{code}
+<key>JVMVersion</key>
+<string>1.7+</string>
+{code}
