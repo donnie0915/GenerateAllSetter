@@ -13,7 +13,7 @@ GenerateAllSetter 是给intellij idea开发的一个生成调用Set方法的插�
 
 #插件安装
 
-1.直接下载GenerateAllSetter.jar放到本地磁盘，
+1.直接下载GenerateAllSetter.jar(如果使用jdk1.7请下载jdk1.7的版本)放到本地磁盘，
 2.然后在intellij idea 插件安装，选install plugin from disk 安装重启即可使用
 
 #插件使用
