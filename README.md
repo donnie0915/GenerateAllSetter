@@ -4,7 +4,7 @@
 GenerateAllSetter 是给intellij idea开发的一个生成调用Set方法的插件，在开发时有时候会遇到初始化domain时需要
 调用很多Set方法，需要人工一个一个操作，非常的麻烦，所以开发了这个插件，提高效率
 
-![image](https://cloud.githubusercontent.com/assets/5294336/8636117/f0f3a4b2-2882-11e5-9fc4-520d619e91f1.png)
+
 
 #关于我
 
